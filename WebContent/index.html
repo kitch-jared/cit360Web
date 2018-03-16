@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servlets Demo</title>
+</head>
+<body>
+	<a href="ServletsDemo?firstName=John&lastName=Doe">Click here to pass parameters via url</a>
+	<p>Or this form for an automated url pass</p>
+	<form action="ServletsDemo">
+		<input name="firstName" />
+		<input name="lastName" />
+		<input type="submit" />
+	</form>
+	<br>
+	<br>
+	<p>This form should do a POST</p>
+	<form method="post" action="ServletsDemo">
+		<input name="firstName" />
+		<input name="lastName" />
+		<input type="submit" />
+	</form>
+</body>
+</html>
